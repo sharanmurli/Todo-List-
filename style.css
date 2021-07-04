@@ -1,0 +1,135 @@
+.container {
+    width: 80%;
+    height: auto;
+    font-size: 25px;
+  
+
+}
+
+.foot {
+
+   
+    left: 10%;
+    width: 60%;
+    text-align: center;
+}
+.example_f {
+
+
+        border-radius: 2rem;
+        background: linear-gradient(to right, #FFA500, #FF803E) !important;
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 23px;
+        padding: 10px;
+        width: 180px;
+        transition: all 0.4s;
+        cursor: pointer;
+        margin: 1px;
+        font-family: "Lobster", serif;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        display:inline;
+        margin-left:2.5rem;
+    }
+    .example_f span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.4s;
+        color: #FFFFFF;
+
+    }
+    .example_f span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+        color: #FFFFFF;
+
+    }
+    .example_f:hover span {
+        padding-right: 25px;
+    }
+    .example_f:hover span:after {
+        opacity: 1;
+        right: 0;
+    }
+
+    .example_f1 {
+
+
+        border-radius: 2rem;
+        background: linear-gradient(to right, #FFA500, #FF803E) !important;
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 23px;
+        padding: 10px;
+        width: 180px;
+        transition: all 0.4s;
+        cursor: pointer;
+        margin: 1px;
+        font-family: "Lobster", serif;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        display:inline;
+        margin-left:2.5rem;
+    }
+    .example_f1 span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.4s;
+        color: #FFFFFF;
+
+    }
+.example_f1 span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+        color: #FFFFFF;
+
+    }
+.example_f1:hover span {
+        padding-right: 25px;
+    }
+.example_f1:hover span:after {
+        opacity: 1;
+        right: 0;
+    }
+    body {
+
+        background:darkgray;
+    }
+    h3{
+        font-family: "Lobster", serif;
+    }
+    .input1{
+        height:50px;
+    }
+    .container1{
+          padding: 20px;
+          width: 900px;
+          margin: 0 auto;
+          margin-top: 40px;
+          background: white;
+          border-radius: 5px;
+        }
+    #text{
+          font-size: 25px;
+          font-family: "Lobster", serif;
+        }
+
+        .headnote{
+            position: fixed;
+            padding: 10px 10px 0px 10px;
+          top:0;
+            width: 100%;
+            text-align: center;
+     
+        }
